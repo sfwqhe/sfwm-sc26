@@ -1,2 +1,2 @@
-# sfwm-qhpce
-SC25 Workshop
+# SFWM - SC26
+SC26 Workshop  
