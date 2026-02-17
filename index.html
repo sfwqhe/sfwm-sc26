@@ -112,6 +112,7 @@
         <p>Katherine Klymko, Lawrence Berkeley National Laboratory (LBNL), USA </p>
         <p>Frank Mueller, North Carolina State University (NCSU), USA </p>
         <p>Jorge Echavarria, Munich Quantum Valley (MQV), Germany </p>
+		<p>Amir Shehata, Oak Ridge National Laboratory (ORNL), USA </p>
         <p> </p>
 	</section>
 	<section>
@@ -218,17 +219,16 @@
 	
     <section>
         <h2>Short Description of the Proposed Workshop</h2>
-        <p> This workshop focuses on the development of software frameworks, AI-enabled orchestration, and workload management strategies that are crucial for Quantum–HPC (Q-HPC) ecosystems. As quantum computing progresses, integrating quantum processors with HPC systems presents significant opportunities to tackle complex, large-scale problems. Experts from academia, industry, and national laboratories will discuss challenges in managing hybrid resources, alongside emerging research on middleware, dynamical scheduling, decomposition strategies, and benchmarking methodologies for Q-HPC systems. A special emphasis will be placed on the role of AI in adaptive workflow orchestration, intelligent resource allocation, performance prediction, error-aware scheduling, and autonomous runtime control across heterogeneous quantum–classical infrastructures. The workshop will include invited talks, paper presentations, panel discussions, and interactive demonstrations to foster collaboration and advance the state of hybrid computing. Attendees will gain insights into best practices, emerging technologies, and future directions in AI-driven Q-HPC integration, accelerating quantum computing as a practical extension of HPC environments.
+        <p> The integration of quantum computing (QC) with high-performance computing (HPC) is emerging as a transformative paradigm for addressing complex scientific and engineering challenges. Given current quantum hardware limitations, such as noise, limited qubit counts, and constrained circuit depth, hybrid Quantum–HPC (Q-HPC) ecosystems provide a practical path forward by combining complementary strengths. This workshop focuses on software frameworks, AI-enabled orchestration, and workload management strategies essential for scalable Q-HPC integration. Topics include architecture co-design, heterogeneous resource management, networking, fault tolerance, error mitigation, programming models, middleware, benchmarking, and large-scale distributed Q-HPC systems. Emphasis will be placed on open, interoperable ecosystems such as openQSE and on ML/AI techniques for adaptive workflow orchestration, topology-aware scheduling, performance prediction, and autonomous runtime control. Through invited talks, technical presentations, panels, and special sessions, the workshop will foster collaboration across academia, industry, national laboratories, and funding agencies to define research priorities and accelerate AI-driven Q-HPC ecosystems.
         </p>
     </section>
 
     <section>
         <h2>Workshop Scope</h2>
-        <p> The integration of quantum computing (QC) with high-performance computing (HPC) is emerging as a critical paradigm for tackling complex scientific and engineering challenges [1].  Current QC technology is constrained by the number of qubits, noise, and limited circuit depths, making hybrid Quantum-HPC (Q-HPC) ecosystems a practical approach to leveraging the strengths of both computing paradigms [2]. However, realizing the full potential of Q-HPC systems requires advanced software frameworks that can efficiently manage heterogeneous resources [3,4], decompose large-scale problems [5,6], optimize execution workflows [7], validate programming models [8,9], and mitigate errors [10,11]. 
-As Q-HPC environments grow in scale and complexity, artificial intelligence (AI) is emerging as foundational technologies for enabling intelligent, adaptive, and autonomous quantum software systems [12]. AI-driven methods offer new capabilities for dynamic resource orchestration, topology-aware scheduling, workflow optimization, performance prediction, and closed-loop control across the full Q-HPC software stack.
+        <p> The integration of quantum computing (QC) with high-performance computing (HPC) is emerging as a critical paradigm for tackling complex scientific and engineering challenges [1]. Current QC technology is constrained by the number of qubits, noise, and limited circuit depths, making hybrid Quantum-HPC (Q-HPC) ecosystems a practical approach to leveraging the strengths of both computing paradigms [2]. However, realizing the full potential of Q-HPC systems requires advanced software tools/frameworks that can efficiently manage heterogeneous resources [3,4], decompose large-scale problems [5,6], optimize execution workflows [7], validate programming models [8,9], and mitigate errors [10,11]. As quantum–HPC (Q-HPC) environments scale in complexity, open and interoperable software ecosystems such as the open Quantum–HPC Software Ecosystem (openQSE) [12] are increasingly needed to integrate quantum computers, simulators, and software stacks as first-class HPC components. At the same time, machine learning (ML)/artificial intelligence (AI) is emerging as a foundational enabler of intelligent and adaptive quantum software [13], providing capabilities for resource orchestration, topology-aware scheduling, workflow optimization, performance prediction, and closed-loop control across the Q-HPC stack.
 		</p>
-        <p>
-This workshop will bring together experts from academia, industry, and national laboratories to discuss and advance the development of software frameworks and workload management strategies for Q-HPC ecosystems. Topics of interest include, but are not limited to: </p>
+        <p> This workshop will bring together experts from academia, industry, national laboratories, and research funding agencies to discuss and advance the development of architecture co-design, fault tolerance, software stacks, workload management strategies for integrated Q-HPC ecosystems. Topics of interest include, but are not limited to:
+ </p>
     <ul>
         <li> AI-Driven Workload Management in Q-HPC Systems: AI-based efficient scheduling, job allocation, and workload balancing across quantum and classical processors. </li>
         <li> Q-HPC Software Frameworks and AI-Assisted Quantum Compilation: Learning-based circuit transpilation, leyout selection, Middleware, and runtime systems that enable seamless execution of hybrid quantum-classical workloads. </li>
@@ -238,8 +238,9 @@ This workshop will bring together experts from academia, industry, and national 
         <li> Benchmarking and Performance Metrics: Evaluation strategies for measuring the efficiency of Q-HPC workflows. </li>
         <li> Digital Twins and AI Surrogates for Q-HPC: AI-based performance models for quantum devices and HPC systems to support predictive scheduling and what-if analysis. </li>
         <li> Q-HPC Workflows: Design patterns specifying compute, data and control flow characteristics of hybrid HPC and QC computational workloads</li>
+		<li> Workflow Management and Automation: Tools for optimizing computational workflows across heterogeneous quantum and HPC platforms. Design patterns specifying compute, data and control flow characteristics of hybrid HPC and QC computational workloads </li>
     </li>
-          <p>  By fostering discussions on these topics, the workshop aims to bridge the gap between quantum software development and classical HPC infrastructure, ultimately accelerating the practical deployment of AI-Enabled Q-HPC applications.
+          <p> By fostering discussions on these topics, the workshop aims to bridge the gap between quantum software development and classical HPC infrastructure, ultimately accelerating the practical deployment of AI-Enabled Q-HPC applications. 
           </p>       
 
         
@@ -270,6 +271,7 @@ This workshop will bring together experts from academia, industry, and national 
             <li>Compilation of presented research works into workshop proceedings, open-source repositories, or a community-driven report. </li>
             
             <!-- <li>Increased awareness of current tools and frameworks for Q-HPC systems.</li>
+			<li> Community-driven inputs on research priorities and funding directions to inform agencies such as NSF on strategic investments in hybrid Q-HPC ecosystems. </li>
             <li>Enhanced collaboration between academia and industry in hybrid computing research.</li>
             <li>Identification of key challenges and future research directions.</li>
             <li>Practical insights and skills for attendees through hands-on sessions.</li> -->
@@ -278,11 +280,7 @@ This workshop will bring together experts from academia, industry, and national 
 
     <section>
         <h2>Relevance and Impact to SC Attendees</h2>
-         <p> The SC (Supercomputing) Conference is the premier global venue for advancing HPC technologies, and the growing convergence of quantum computing, AI, and HPC makes this workshop particularly 
-			 timely and impactful. Building on the success of the the 1st SFWM workshop in SC25 [13] 
-			 (103 average attendees; 22 submitted papers; 9 accepted/presented papers; 1 invited speaker; and panel discussions; 
-			 <a href="https://sfwqhe.github.io/sfwm-qhpce" target="_blank"> https://sfwqhe.github.io/sfwm-qhpce</a>), this workshop will deliver tangible value to SC attendees 
-			 - including students, researchers, developers, and industry professionals - through the following benefits: </p>
+         <p> The SC (Supercomputing) Conference is the premier global venue for advancing HPC technologies, and the growing convergence of quantum computing, AI, and HPC makes this workshop particularly timely and impactful. Building on the success of the the 1st SFWM workshop in SC25 [14] (103 average attendance; 22 submitted papers; 9 accepted/presented papers; 1 invited speaker; and panel discussions; <a href="https://sfwqhe.github.io/sfwm-qhpce" target="_blank"> https://sfwqhe.github.io/sfwm-qhpce</a>), this workshop will deliver tangible value to SC attendees - including students, researchers, developers, and industry professionals - through the following benefits: </p>
         <ul>
             <li> Exposure to state-of-the-art software frameworks enabling Q-HPC integration.</li>
 			<li> Experience on cutting-edge AI techniques across heterogeneous Q-HPC resources.</li>
@@ -298,11 +296,11 @@ This workshop will bring together experts from academia, industry, and national 
         <h2> Workshop Format </h2>
         <p>The workshop will consist of: </p>
         <ul>
-            <li> Invite Talks (30–45 min each): Leading experts will discuss the state of Q-HPC software and future directions.</li>
-            <li> Paper Presentations (15–20 min each): Selected contributions from researchers in academia and industry. </li>
-            <li> Panel Discussion (60 min): Experts will debate the challenges and opportunities in AI-enabled Q-HPC software frameworks. </li>
-            <li> Interactive Demo Session (90 min): Hands-on demonstrations of Q-HPC software tools and middleware.</li>
-            <li> Networking Session (30 min): Dedicated time for informal discussions and collaboration-building.</li>
+            <li> Invited Talks (30 min each): Leading experts will discuss the state of Q-HPC software, workload, and future directions.</li>
+            <li> Paper Presentations (15 min each): Selected contributions from researchers in academia and industry. </li>
+			<li> Special sessions (45 min each):  Research priorities and opportunities on quantum systems and HPC integration and openQSE project.</li>
+            <li> Panel Discussion and Q&A (60 min): Experts will debate the challenges and opportunities in AI-enabled Q-HPC software frameworks. </li>
+            <li> Networking Session (15 min): Dedicated time for informal discussions and collaboration-building.</li>
         </ul>
         <p> This format ensures an interactive and engaging environment where attendees can exchange ideas, learn from experts, and explore cutting-edge solutions in AI-enabled Q-HPC software development. </p>
     </section> 
@@ -499,8 +497,9 @@ This workshop will bring together experts from academia, industry, and national 
         <p> [9] T. S. Humble, et al., Quantum Computers for High-Performance Computing,  IEEE Micro. Vol. 41, 15-23 (2021).</p>
         <p> [10] N. Saurabh, et al., Quantum Mini-Apps: A Framework for Developing and Benchmarking Quantum-HPC Applications,  Proceedings of the 2024 Workshop on High Performance and Quantum Computing Integration, p11-18 (2024).</p>
         <p> [11] S. Babaie and C. Qiao, Towards Distributed Quantum Error Correction for Distributed Quantum Computing, arXiv:2409.05244 (2024).</p>
-		<p> [12] Alexeev, Y., Farag, M.H., Patti, T.L. et al. Artificial intelligence for quantum computing. Nat Commun 16, 10829 (2025). https://doi.org/10.1038/s41467-025-65836-3</p>
-		<p> [13] SC Workshops '25: Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis,
+	    <p> [12] openQSE: https://openqse.org/</p>
+		<p> [13] Alexeev, Y., Farag, M.H., Patti, T.L. et al. Artificial intelligence for quantum computing. Nat Commun 16, 10829 (2025). https://doi.org/10.1038/s41467-025-65836-3</p>
+		<p> [14] SC Workshops '25: Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis,
 			<a href="https://dl.acm.org/doi/proceedings/10.1145/3731599" target="_blank"> https://dl.acm.org/doi/proceedings/10.1145/3731599 </a></p>
 
 </section>        
